@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./views/Home";
+import Footer from "./components/Footer";
+import Details from "./views/Details";
+import { hot } from 'react-hot-loader/root';
+import history from "./util/history";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="wrapper">
+        <div className="body-content">
+          <Navbar />
+          <Router history={history}>
+            <Switch>
+              <Route path="/details/:movieId" component={Details}/>
+              <Route path="/" component={Home}/>
+            </Switch>
+          </Router>
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default hot(App);

@@ -1,0 +1,62 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.tagline {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.session {
+  text-align: left;
+}
+
+.session .alignRight{
+text-align: right;
+}
+
+.session .alignRight > div{
+font-size: 18px;
+font-weight: 600;
+}
+
+.session .alignRight > span{
+font-size: 14px;
+font-weight: 600;
+}
+
+.poster {
+  cursor: pointer;
+  height: 277px;
+  width: 185px;
+  margin: 0 auto;
+  border-radius: 3%;
+}
+
+.avaliacao img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .avaliacao label {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .avaliacao span {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  

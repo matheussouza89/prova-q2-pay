@@ -1,0 +1,45 @@
+.footer {
+  background-color: #001d3d;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+    .footer{
+        height: 230px;
+    }
+}
+
+.logo{
+    display: flex;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    background-image: url('../../assets/images/logo.png');
+}
+
+.menu{
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu label{
+    font-weight: 600;
+    color: #fff;
+    margin: 8px 0;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}

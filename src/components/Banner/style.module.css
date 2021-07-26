@@ -1,0 +1,15 @@
+.banner {
+  background-image: url("../../assets/images/BannerImageLg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    background-image: url("../../assets/images/BannerImageSm.jpg");
+    background-position: left;
+    height: 20vh;
+  }
+}
