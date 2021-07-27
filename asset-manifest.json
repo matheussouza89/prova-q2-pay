@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/prova-q2-pay/static/css/main.0ab67320.chunk.css",
-    "main.js": "/prova-q2-pay/static/js/main.0afcc1b4.chunk.js",
-    "main.js.map": "/prova-q2-pay/static/js/main.0afcc1b4.chunk.js.map",
+    "main.js": "/prova-q2-pay/static/js/main.4e9758f6.chunk.js",
+    "main.js.map": "/prova-q2-pay/static/js/main.4e9758f6.chunk.js.map",
     "runtime-main.js": "/prova-q2-pay/static/js/runtime-main.13bbf294.js",
     "runtime-main.js.map": "/prova-q2-pay/static/js/runtime-main.13bbf294.js.map",
     "static/css/2.fb17aa6d.chunk.css": "/prova-q2-pay/static/css/2.fb17aa6d.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.fb17aa6d.chunk.css",
     "static/js/2.993dc012.chunk.js",
     "static/css/main.0ab67320.chunk.css",
-    "static/js/main.0afcc1b4.chunk.js"
+    "static/js/main.4e9758f6.chunk.js"
   ]
 }
